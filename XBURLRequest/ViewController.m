@@ -20,15 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 200, 100, 100)];
-    [btn addTarget:self action:@selector(clickbtn) forControlEvents:UIControlEventTouchDown];
-    btn.backgroundColor = [UIColor redColor];
-    [self.view addSubview:btn];
 }
 
-- (void)clickbtn{
-    
-}
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
